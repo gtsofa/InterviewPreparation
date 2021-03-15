@@ -24,6 +24,8 @@
 		C6DFC07C25DF63D900793740 /* iOSViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFC07B25DF63D900793740 /* iOSViewControllerFactory.swift */; };
 		C6DFC08025E1111300793740 /* ResultsPresenterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFC07F25E1111300793740 /* ResultsPresenterTest.swift */; };
 		C6DFC08425E1131B00793740 /* ResultHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6DFC08325E1131B00793740 /* ResultHelper.swift */; };
+		C6E550A725FF03E600ED4409 /* QuizEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E550A625FF03E600ED4409 /* QuizEngine.framework */; };
+		C6E550A825FF03E600ED4409 /* QuizEngine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6E550A625FF03E600ED4409 /* QuizEngine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C6E5B3E725D0AF77002914AA /* ResultsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5B3E625D0AF77002914AA /* ResultsViewControllerTest.swift */; };
 		C6E5B3EF25D0B1A7002914AA /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5B3EE25D0B1A7002914AA /* ResultsViewController.swift */; };
 		C6E5B3F425D0B2CB002914AA /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6E5B3F325D0B2CB002914AA /* ResultsViewController.xib */; };
@@ -34,8 +36,6 @@
 		C6E5B41D25D1DAA7002914AA /* PresentableAnswer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5B41C25D1DAA7002914AA /* PresentableAnswer.swift */; };
 		C6E5B42225D1DAE2002914AA /* CorrectAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5B42125D1DAE2002914AA /* CorrectAnswerCell.swift */; };
 		C6E5B42725D1DB11002914AA /* WrongAnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5B42625D1DB11002914AA /* WrongAnswerCell.swift */; };
-		C6E5B48525D351F6002914AA /* QuizEngineRevisit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E5B48425D351F6002914AA /* QuizEngineRevisit.framework */; };
-		C6E5B48625D351F6002914AA /* QuizEngineRevisit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C6E5B48425D351F6002914AA /* QuizEngineRevisit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C6E5B48B25D352D3002914AA /* NavigationControllerRouterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5B48A25D352D3002914AA /* NavigationControllerRouterTest.swift */; };
 		C6E5B48F25D35476002914AA /* NavigationControllerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E5B48E25D35476002914AA /* NavigationControllerRouter.swift */; };
 		C6E9D9D825D4AC9F00586954 /* QuestionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E9D9D725D4AC9F00586954 /* QuestionTest.swift */; };
@@ -59,13 +59,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C6E5B48725D351F6002914AA /* Embed Frameworks */ = {
+		C6E550A925FF03E600ED4409 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C6E5B48625D351F6002914AA /* QuizEngineRevisit.framework in Embed Frameworks */,
+				C6E550A825FF03E600ED4409 /* QuizEngine.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +96,10 @@
 		C6DFC07B25DF63D900793740 /* iOSViewControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSViewControllerFactory.swift; sourceTree = "<group>"; };
 		C6DFC07F25E1111300793740 /* ResultsPresenterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsPresenterTest.swift; sourceTree = "<group>"; };
 		C6DFC08325E1131B00793740 /* ResultHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultHelper.swift; sourceTree = "<group>"; };
+		C6E5508425FEF86800ED4409 /* QuizEngine_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuizEngine_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E5509125FEFFEE00ED4409 /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E5509C25FF03A000ED4409 /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E550A625FF03E600ED4409 /* QuizEngine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = QuizEngine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E5B3E625D0AF77002914AA /* ResultsViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewControllerTest.swift; sourceTree = "<group>"; };
 		C6E5B3EE25D0B1A7002914AA /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		C6E5B3F325D0B2CB002914AA /* ResultsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
@@ -117,7 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E5B48525D351F6002914AA /* QuizEngineRevisit.framework in Frameworks */,
+				C6E550A725FF03E600ED4409 /* QuizEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +380,10 @@
 		C6E5B48325D351F6002914AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6E550A625FF03E600ED4409 /* QuizEngine.framework */,
+				C6E5509C25FF03A000ED4409 /* QuizEngine.framework */,
+				C6E5509125FEFFEE00ED4409 /* QuizEngine.framework */,
+				C6E5508425FEF86800ED4409 /* QuizEngine_iOS.framework */,
 				C6E5B48425D351F6002914AA /* QuizEngineRevisit.framework */,
 			);
 			name = Frameworks;
@@ -391,7 +399,7 @@
 				C69ACF3825CE19DD000A9039 /* Sources */,
 				C69ACF3925CE19DD000A9039 /* Frameworks */,
 				C69ACF3A25CE19DD000A9039 /* Resources */,
-				C6E5B48725D351F6002914AA /* Embed Frameworks */,
+				C6E550A925FF03E600ED4409 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

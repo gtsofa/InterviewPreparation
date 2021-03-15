@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import QuizEngineRevisit
+import QuizEngine
 
 class iOSViewControllerFactory: ViewControllerFactory {
     private let questions: [Question<String>]

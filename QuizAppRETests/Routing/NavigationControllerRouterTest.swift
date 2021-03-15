@@ -6,7 +6,7 @@
 //
 import UIKit
 import XCTest
-import QuizEngineRevisit
+import QuizEngine
 @testable import QuizAppRE
 
 class NavigationControllerRouterTest: XCTestCase {

@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import QuizEngineRevisit
+import QuizEngine
 
 struct ResultsPresenter {
     let result: Result<Question<String>, [String]>

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import QuizEngineRevisit
+@testable import QuizEngine
 @testable import QuizAppRE
 
 

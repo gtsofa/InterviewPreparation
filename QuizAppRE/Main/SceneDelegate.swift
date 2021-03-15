@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import QuizEngineRevisit
+import QuizEngine
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -47,7 +47,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window.makeKeyAndVisible()
         self.window = window
         
-        game = startGame(questions: questions, router: router, correctAnswers: correctAnswers)
+        game = startGame(question: questions, router: router, correctAnswers: correctAnswers)
         
         // hard coded stuff :-)
         /*guard let windowScene = (scene as? UIWindowScene) else { return }

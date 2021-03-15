@@ -7,7 +7,7 @@
 
 import Foundation
 import XCTest
-@testable import QuizEngineRevisit
+@testable import QuizEngine
 
 class QuestionTest: XCTestCase {
     

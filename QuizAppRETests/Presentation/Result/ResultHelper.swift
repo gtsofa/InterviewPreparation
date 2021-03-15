@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import QuizEngineRevisit
+@testable import QuizEngine
 
 extension Result: Hashable {
     

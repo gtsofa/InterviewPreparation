@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import QuizEngineRevisit
+import QuizEngine
 
 struct QuestionPresenter {
     let questions: [Question<String>] // all questions so that we can find index of a question
