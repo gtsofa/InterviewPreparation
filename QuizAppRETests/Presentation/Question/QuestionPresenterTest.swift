@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import QuizEngineRevisit
+import QuizEngine
 @testable import QuizAppRE
 
 class QuestionPresenterTest: XCTestCase {

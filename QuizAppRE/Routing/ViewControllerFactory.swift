@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import QuizEngineRevisit
+import QuizEngine
 
 protocol
 ViewControllerFactory {
