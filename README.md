@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/gtsofa/QuizAppRE.svg?branch=master)](https://travis-ci.com/gtsofa/QuizAppRE)
+
+
 ## Create a table view cell in Interface builder
 These are the steps to quickly create a table cell
 - Create a new file with the name of nib file exactly as the name of the code file eg `WrongAnswerCell.xib`
