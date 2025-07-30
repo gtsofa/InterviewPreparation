@@ -44,4 +44,21 @@ This is your roadmap to turning interviews into offers. Let’s dive in!
 - OK.
 
 ### Preparing To Be The Must-Have Candidate
+Here’s the truth:
+
+👉 **Hiring isn’t just about qualifications**.
+
+👉 It’s about **how well you fit** the company’s needs, culture, and long-term goals.
+
+#### Action Items / Homework:
+
+- ✅ Take time to research **what matters most** to the employers you’re interviewing with—think beyond the job description.
+	- 
+
+- ✅ Reflect on how your skills and experience align with **their goals**, not just your own.	- 
+
+- ✅ Start shifting your mindset: You’re not just answering questions—you’re showing them why they **need you** on their team.
+
+- ✅ Keep these insights handy—we’ll build on them as we move into how to deliver a standout performance in your interviews and negotiations.
+
 
