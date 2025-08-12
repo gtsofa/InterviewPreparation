@@ -239,4 +239,6 @@ How to Use These
 
 - Tie answers back to what they care about most: culture & motivation (Gloria), technical excellence (Edward), business impact & collaboration (Eric).
 
+## Interview Purpose & Assessment Criteria
+
 
