@@ -2,4 +2,6 @@
 
 [I&M Bank Limited 1st iOS Engineer Technical Interview](/IandMBank/README.md)
 
+[Equity Bank Group Interview Preparation](/EquityBankGroup/README.md)
+
 
